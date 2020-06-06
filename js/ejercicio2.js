@@ -1,4 +1,4 @@
-function sumaCubitos(...rest) {
+function sumOfCubes(...rest) {
   let suma = 0;
   let resultadoCubo = 0;
   for (let i = 0; i < rest.length; i++) {
@@ -10,4 +10,4 @@ function sumaCubitos(...rest) {
   return console.log(`La suma de los cubos es: ${suma}`);
 }
 
-sumaCubitos(1, 5, 9);
+sumOfCubes(1, 5, 9);

@@ -1,5 +1,5 @@
-function formatPhoneNumber(arr) {
-  return arr.join();
+function formatPhoneNumber([a, b, c, d, e, f, g, h, i, j]) {
+  return console.log(`(${a}${b}${c}) - ${d}${e}${f} ${g}${h}${i}${j}`);
 }
-let listaNumbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-console.log(formatPhoneNumber(listaNumbers));
+let numbers = [0, 1, 2, 3, 4, 5, 7, 8, 9];
+formatPhoneNumber(numbers);

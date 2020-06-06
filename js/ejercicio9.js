@@ -1,10 +1,20 @@
 function charIndex(cadena, indice) {
-  let arr = Array.from(cadena);
-  console.log("Tenemos en el array: ", arr);
-  console.log("Buscando ", indice);
-  let index = arr.indexOf(indice);
+  let arr = cadena.split(", ");
+  console.log(arr);
+  console.log("Tenemos la cadena:", cadena);
+  console.log("Buscando la letra", indice);
+
+  let newArr = [];
   for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i], index);
+    let index = arr[i].indexOf(indice);
+    console.log(index);
+    newArr.push[index];
   }
+
+  return console.log(newArr);
 }
-charIndex("hello", "l");
+
+let name = "hello";
+letter = "l";
+
+charIndex(name, letter);
