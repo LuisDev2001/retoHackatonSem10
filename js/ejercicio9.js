@@ -8,13 +8,13 @@ function charIndex(cadena, indice) {
   for (let i = 0; i < arr.length; i++) {
     let index = arr[i].indexOf(indice);
     console.log(index);
-    newArr.push[index];
+    newArr.push(index);
   }
 
   return console.log(newArr);
 }
 
-let name = "hello";
-letter = "l";
+let name = "aloja";
+letter = "o";
 
 charIndex(name, letter);
